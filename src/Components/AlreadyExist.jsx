@@ -101,6 +101,7 @@ const AlreadyExist = ({inputPhone}) => {
                   color: "white",
                   textTransform: "none",
                   fontWeight: "bold",
+                  "&:hover":{backgroundColor:'#5538e8'}
                 }}
               >
                 Send OTP

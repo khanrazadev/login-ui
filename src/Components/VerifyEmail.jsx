@@ -166,6 +166,7 @@ const VerifyEmail = ({showAlreadyExist}) => {
                       bgcolor: "#5538e8",
                       color: "white",
                       marginTop: "20px",
+                      "&:hover":{backgroundColor:'#5538e8'}
                     }}
                   >
                     Request Magic code
@@ -198,6 +199,7 @@ const VerifyEmail = ({showAlreadyExist}) => {
                       bgcolor: "#5538e8",
                       color: "white",
                       marginTop: "20px",
+                      "&:hover":{backgroundColor:'#5538e8'}
                     }}
                   >
                     Confirm

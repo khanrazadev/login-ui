@@ -2,12 +2,22 @@ import React from 'react';
 import { Grid, Container,Typography, Button, TextField } from "@mui/material";
 import logo from "../utils/logo.png";
 import email from "../utils/email.png";
+import { styled } from '@mui/material/styles';
 
 
 
 import google from "../utils/google.png";
 import { useState } from 'react';
 import VerifyMobile from './VerifyMobile';
+
+
+const buttonStyle = styled((Button) => ({
+  button: {
+    '&:hover': {
+      backgroundColor: 'transparent',
+    },
+  },
+}));
 
 
 const Login = () => {
@@ -60,7 +70,7 @@ const Login = () => {
             <TextField value={inputPhone} onChange={handleChange} size="small" sx={{width:'40%'}} placeholder="Mobile Number.">
             
             </TextField>
-            <Button onClick={handleSubmit} size='large' sx={{ bgcolor: "#5538e8", color: "white" ,width:'40%'}}>Get Started</Button>
+            <Button variant='outlined' onClick={handleSubmit} size='large' sx={{ bgcolor: "#5538e8", color: "white" ,width:'40%',"&:hover":{backgroundColor:'#5538e8'}}}>Get Started</Button>
             {/* <Box sx={{ display: "flex", flexDirection: "row", width: "100%" }}>
               <hr />
               or<hr></hr>

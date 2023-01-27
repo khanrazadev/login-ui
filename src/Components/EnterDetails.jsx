@@ -106,6 +106,7 @@ const EnterDetails = () => {
                 bgcolor: "#5538e8",
                 color: "white",
                 marginTop: "20px",
+                "&:hover":{backgroundColor:'#5538e8'}
               }}
             >
               Proceed

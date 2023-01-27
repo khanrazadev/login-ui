@@ -74,6 +74,7 @@ const VerifyMobile = ({ inputPhone}) => {
             color: "white",
             width: "40%",
             textTransform: "none",
+            "&:hover":{backgroundColor:'#5538e8'}
           }}
         >
           Confirm
